@@ -1,0 +1,102 @@
+<!--
+Создать XML-файл, хранящий языки и денежные знаки для стран, проверить правильность кода при
+помощи веб браузера
+ Создать XML-файл – рецепты пиццы, проверить правильность кода при помощи веб браузера
+При создании файлов, используйте также атрибуты
+Lapina Daria SPTV21
+28.03.2023
+-->
+
+
+<countries>
+    <root>
+        <country>
+        <name>Estonia</name>
+        <language>
+             <lang isOfficial="True">Estonian</lang> 
+             <lang>Russian</lang>
+                 <lang>Finnish</lang>
+                    </language>
+             <currency name="Euro" sign="€"></currency>
+                </country>
+        <country2>
+        <name>Finland</name>
+        <language>
+             <lang isOfficial="True">Finnish</lang> 
+             <lang>Estonian</lang>
+                 <lang>Russian</lang>
+                    </language>
+             <currency name="Euro" sign="€"></currency>
+         </country2>
+         <country3>
+            <name>Russia</name>
+            <language>
+                 <lang isOfficial="True">Russian</lang> 
+                 <lang>English</lang>
+                     <lang>Ukainian</lang>
+                        </language>
+                 <currency name="Russian ruble" sign="₽"></currency>
+             </country3>
+             <country4>
+                <name>Bosnia and Herzegovina</name>
+                <language>
+                     <lang isOfficial="True">Bosnian</lang> 
+                     <lang>Serbian</lang>
+                         <lang>Croatian</lang>
+                            </language>
+                     <currency name="Bosnia and Herzegovina Convertible Mark" sign="KM"></currency>
+                 </country4>
+                 <country5>
+                    <name>Cuba</name>
+                    <language>
+                         <lang isOfficial="True">Cuban Spanish</lang> 
+                         <lang>Spanish</lang>
+                             <lang>English</lang>
+                                </language>
+                         <currency name="Cuban Peso" sign="₱"></currency>
+                            </country5>
+                <country6>
+                    <name>Dominican Republic</name>
+                        <language>
+                            <lang isOfficial="True">Dominican Spanish</lang> 
+                            <lang>Spanish</lang>
+                            <lang>Haitian Creole</lang>
+                                </language>
+                                <currency name="Cuban Peso" sign="₱"></currency>
+                                    </country6>
+                 <country7>
+                    <name>Japan</name>
+                        <language>
+                            <lang isOfficial="True">Japanese</lang> 
+                                <lang>Amami</lang>
+                                <lang>Kikai</lang>
+                                </language>
+                                    <currency name="Japanese Yen" sign="¥"></currency>
+                                        </country7>
+                <country8>
+                    <name>Jordan</name>
+                        <language>
+                        <lang isOfficial="True">Arabic Language</lang> 
+                        <lang>English</lang>
+                        <lang>French</lang>
+                             </language>
+                                <currency name="Jordanian Dinar" sign="JOD"></currency>
+                                        </country8>
+                <country9>
+                     <name>Madagascar</name>
+                        <language>
+                        <lang isOfficial="True">Malagasy</lang> 
+                        <lang>French</lang>
+                            </language>
+                                <currency name="Malagasy Ariary" sign="MGA"></currency>
+                                    </country9>
+                <country10>
+                    <name>Uganda</name>
+                        <language>
+                        <lang isOfficial="True">English</lang> 
+                        <lang>Bantu</lang>
+                            </language>
+                                <currency name="Ugandan Shilling" sign="USh"></currency>
+                                    </country10>
+    </root>
+</countries>
